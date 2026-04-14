@@ -1,5 +1,28 @@
 #include <stdio.h>
 
-int main(void) {
-    return 0;
+int main (){
+    int N;
+    scanf("%d", &N);
+    for(int i = 1; i<= N; i++){
+        if (i % 2 == 0 && i % 3 == 0){
+            printf("BIRU\n");
+        }
+        else if (i % 2 != 0 && i % 3 == 0)
+        {x`
+            printf("MERAH\n");
+        }
+        else if (i % 2 == 0 && i % 3 != 0)
+        {
+            printf("KUNING\n");
+        }
+        else if (i >= 10 && i % 2 == 0)
+        {
+            printf("HIJAU\n");
+        }
+        
+        else{
+            printf("%d\n", i);
+        }
+        return 0;
+    }
 }
