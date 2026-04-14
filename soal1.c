@@ -8,7 +8,7 @@ int main (){
             printf("BIRU\n");
         }
         else if (i % 2 != 0 && i % 3 == 0)
-        {x`
+        {
             printf("MERAH\n");
         }
         else if (i % 2 == 0 && i % 3 != 0)
